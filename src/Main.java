@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        Calculate cal = new Calculate();
-        System.out.println(cal.calculate(35.0, 120.0, cal.petroleum));
+        Calculate calculate = new Calculate();
+        System.out.println(calculate.calculate(35.0, 120.0, calculate.petroleum));
     }
     /*Для удобства проверки, возможные операции:
         add Addition – сложение

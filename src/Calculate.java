@@ -1,7 +1,7 @@
 public class Calculate {
 
-    public double calculate(Double num1, Double num2, Counter op) {
-        return op.operation(num1, num2);
+    public double calculate(Double num1, Double num2, Counter counter) {
+        return counter.operation(num1, num2);
     }
 
     Counter add = (num1, num2) -> num1 + num2;
